@@ -4,6 +4,10 @@ let palavraSecreta = "abacate";
 let tentativasRestantes = palavraSecreta.length;
 
 for (tentativasRestantes; tentativasRestantes > 0; tentativasRestantes--) {
+  const resposta = processarTentativa(palavraSecreta);
+}
+
+function processarTentativa(palavraSecreta) {
   console.clear();
 
   let visor = "";
@@ -16,5 +20,12 @@ for (tentativasRestantes; tentativasRestantes > 0; tentativasRestantes--) {
 
   console.log(`\nPalavra secreta: \n${visor}`);
 
-  prompt("Digite a letra: ");
+  let resposta = prompt(`Escolha a opção abaixo:
+  1 - Digitar letra
+  2 - Chutar palavra
+
+  Digite a opção:
+  `);
+
+  return resposta;
 }
