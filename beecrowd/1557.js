@@ -19,11 +19,13 @@ while (true) {
     matriz[linha] = colunas
   }
 
+  let maiorValor = matriz[ordem - 1][ordem - 1].toString().length
+
   for (let linha = 0; linha < ordem; linha++) {
     let textoLinha = '';
 
     for (let coluna = 0; coluna < matriz[linha].length; coluna++) {
-      textoLinha += matriz[i][coluna].toString().padStart(3, ' ') + ' ';
+      textoLinha += matriz[linha][coluna].toString().padStart(maiorValor, ' ') + ' ';
     }
 
     console.log(textoLinha.trimEnd());
