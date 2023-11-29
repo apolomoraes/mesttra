@@ -1,0 +1,1 @@
+const api = fetch('https://localhost:3000/tarefas');
