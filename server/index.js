@@ -9,18 +9,18 @@ app.use(express.json());
 const tarefas = [
   {
     id: randomUUID(),
-    text: "sasas",
-    prazo: "asasas"
+    text: "almoçar",
+    prazo: 10
   },
   {
     id: randomUUID(),
-    text: "sasas",
-    prazo: "asasas"
+    text: "estudar",
+    prazo: 20
   },
   {
     id: randomUUID(),
-    text: "sasas",
-    prazo: "asasas"
+    text: "curso",
+    prazo: 30
   }
 ];
 
