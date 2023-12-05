@@ -1,7 +1,7 @@
 const sequelizeConfig = {
   development: {
     username: 'postgres',
-    password: 'ooti',
+    password: '',
     database: '',
     host: 'localhost',
     dialect: 'postgress',
