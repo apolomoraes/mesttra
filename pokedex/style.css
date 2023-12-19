@@ -89,3 +89,35 @@ header h1 {
   font-size: 2.2rem;
   color: #ff1f1f;
 }
+
+.form-busca {
+  display: flex;
+  margin: 1rem;
+}
+
+.form-busca input {
+  padding: 1rem;
+  outline: none;
+  font-size: 1.6rem;
+  border: 1px solid #363b81;
+  border-radius: 0.5rem;
+  color: #ff1f1f;
+}
+
+.form-busca button {
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+  transition: all .5s;
+}
+
+.form-busca button:hover {
+  transform: scale(1.1);
+}
